@@ -1,1 +1,24 @@
-<p>form works!</p>
+<form class="quote-form" (ngSubmit)="submitQuote()">
+
+    <br>
+
+    <div class="form-group">
+        <label for="name"><strong>Name:</strong></label>
+        <input type="text" name="publisher" class="form-control" 
+            [(ngModel)]="quotePublisher" placeholder="Type Your Name Here">
+    </div>
+
+    <div class="form-group">
+        <label for="quotes"><strong>Quote:</strong></label>
+        <input type="text" name="quote" class="form-control" [(ngModel)]="quoteStr"
+            placeholder="Type Your Quote Here">
+    </div>
+
+    <div class="form-group">
+        <label for="author"><strong>Author:</strong></label>
+        <input type="text" name="author" class="form-control" [(ngModel)]="quoteAuthor"
+            placeholder="Type Name of the Author Here">
+    </div>
+
+    <button type="submit" class="btn btn-primary">Post Quote</button>
+</form>

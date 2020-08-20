@@ -1,1 +1,9 @@
-<p>detail works!</p>
+<div class="container">
+    <ul class="myList">
+        <li>Author: {{ quote.author}}</li>
+        <li>Publisher: {{ quote.name}}</li>
+        <li>Upvotes: {{ quote.upvotes}}</li>
+        <li>Downvotes: {{quote.downvotes}}</li>
+        <li>{{quote.myDate|date|uppercase}}</li>
+    </ul>
+</div>

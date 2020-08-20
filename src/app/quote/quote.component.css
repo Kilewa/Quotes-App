@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+body{
+  font-family: 'Londrina Outline', cursive;
+}
+
+  .myQuote{
+    padding: 10px;
+  }
+  
+  .container-fluid{
+    text-align: center;
+    background-color: #380e07;
+    font-family: 'Londrina Outline', cursive;
+    font-size: 70px;
+    color: #fff;
+  }
+  .btn{
+    margin-right: 10px;
+  }
+
+.buttons{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addquote{
+  text-align: center;
+}

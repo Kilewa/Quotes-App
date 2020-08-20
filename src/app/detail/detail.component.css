@@ -1,0 +1,23 @@
+
+.myList{
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.myList li{
+    display: inline;
+    margin: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+}
