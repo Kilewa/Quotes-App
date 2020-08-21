@@ -1,0 +1,18 @@
+form input{
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid #FF5666;
+    color: #FF5666;
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: #FF5666;;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FF5666;;
+}
+
+::placeholder {
+    color: #FF5666;;
+}
