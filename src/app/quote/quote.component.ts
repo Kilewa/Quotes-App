@@ -8,8 +8,8 @@ import {Quote} from '../quote';
 export class QuoteComponent implements OnInit {
   quotes=[new Quote("Kilewa","George Kilewa","Change is Permanent"),
   new Quote("George Kilewa","Martin Lutha King Jnr","Every man must decide whether he will walk in the light of creative altruism or in the darkness of destructive selfishness.")]
-  preNum:number
-  lastNum:number
+  initial_val:number
+  high_val:number
   counter:number
 
   addQuote(emittedQuote){
@@ -20,20 +20,20 @@ export class QuoteComponent implements OnInit {
       this.quotes[i].upvotes+=1
   }
   downvote(i){
-    this.quotes[i].downvotes+=1
+    this.quotes[i].downvotes-=1
   }
   delQuote(i){
     this.quotes.splice(i, 1)
   }
   highestUpvote(){
-    this.preNum = 0
-    this.lastNum = 0
+    this.initial_val = 0
+    this.high_val = 0
 
     for(this.counter=0 ; this.counter < this.quotes.length; this.counter++) {
-      this.lastNum = this.quotes[this.counter].upvotes;
-      if(this.lastNum > this.preNum){this.preNum = this.lastNum}
+      this.high_val = this.quotes[this.counter].upvotes;
+      if(this.high_val > this.initial_val){this.initial_val = this.high_val}
     }
-    return  this.preNum
+    return  this.initial_val
   }
   constructor() { }
 
