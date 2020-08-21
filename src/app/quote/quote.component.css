@@ -12,6 +12,9 @@ body{
     color: #fff;
     min-height: 30vh;
   }
+  .header{
+    padding: 20px;
+  }
   .welcome{
     font-size: 20px;
   }
