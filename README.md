@@ -1,6 +1,6 @@
 # Quotes-App
 
-### George Kilewa
+###By George Kilewa
 
 ##  The Quotes_App Version v1.0
 
@@ -50,7 +50,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 ## Demo
-To view the page click here: [QUOTES](https://kilewa.github.io/Quotes-App/)
+To view the page click here: [QUOTES-APP](https://kilewa.github.io/Quotes-App/)
 
 ## Technology Used
 + Angular JS
@@ -63,7 +63,7 @@ To view the page click here: [QUOTES](https://kilewa.github.io/Quotes-App/)
 George Kilewa
 
 ## Contact Details
-You can contact me at immamugambi@gmail.com
+You can contact me at kilewageorge230@gmail.com
 
 ## License
 
