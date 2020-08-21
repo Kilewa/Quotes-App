@@ -1,9 +1,7 @@
 
 .myList{
-    justify-content: center;
     flex-direction: column;
     text-align: justify;
-    margin-left: 0;
 }
 
 ul{
@@ -15,7 +13,6 @@ ul{
 
 .myList li{
     display: block;
-    margin: 10px;
     list-style: none;
     text-decoration: none;
     
