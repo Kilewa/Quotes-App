@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
-body{
-  font-family: 'Londrina Outline', cursive;
-}
 
-  
-  
   .container-fluid{
     text-align: center;
-    background-color: #380e07d5;
+    background-color: #070a1dd5;
     font-family: 'Londrina Outline', cursive;
     color: #fff;
-    min-height: 30vh;
   }
   .header{
     padding: 20px;
@@ -20,6 +14,7 @@ body{
   }
   .welcome-quote{
     font-size: 20px;
+    padding: 20px 0px 20px 0px;
   }
 
   .app-description{
@@ -46,8 +41,6 @@ body{
   width: 40%;
   margin-right: 30px;
   margin-top: 35px;
-  background-color: lightblue;
-  padding: 30px;
 }
 
 .p1{
