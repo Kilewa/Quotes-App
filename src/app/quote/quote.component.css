@@ -33,8 +33,10 @@ body{
 .p1{
   width: 50%;
   margin: 10px 0px 5px 0px;
+  text-align: justify;
 }
 
 .app-detail{
   margin: 10px 0px 5px 0px;
+  text-align: justify;
 }
