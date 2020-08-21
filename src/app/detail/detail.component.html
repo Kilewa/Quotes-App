@@ -2,8 +2,8 @@
     <ul class="myList">
         <li>Author: {{ quote.author}}</li>
         <li>Publisher: {{ quote.name}}</li>
-        <li>Upvotes: {{ quote.upvotes}}</li>
-        <li>Downvotes: {{quote.downvotes}}</li>
+        <li class="green">Upvotes: {{ quote.upvotes}}</li>
+        <li class="red">Downvotes: {{quote.downvotes}}</li>
         <li>{{quote.myDate|date|uppercase}}</li>
     </ul>
 </div>

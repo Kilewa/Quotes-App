@@ -1,6 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.css";
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 body{
-    background-color: brown;
+    background: url('./assets/images/bg-2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFCCC9;
+    font-family: 'Righteous', cursive;
 }

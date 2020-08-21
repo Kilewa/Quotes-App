@@ -5,9 +5,6 @@
 
     <app-form (emitQuote)="addQuote($event)"></app-form>
 
-
-  
-
   <div class="container">
       <div>
         <hr>
@@ -15,7 +12,7 @@
           <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p>
           <p  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
           
-            <app-detail [quote]="quote" class="addquote"></app-detail>
+            <app-detail [quote]="quote" ></app-detail>
           
           <div class="buttons">
             <button class="btn btn-success" (click)="upvote(i)">Upvote</button>

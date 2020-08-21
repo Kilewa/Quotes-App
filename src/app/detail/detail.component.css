@@ -6,7 +6,7 @@
 }
 
 ul{
-    background-color: blueviolet;
+    background-color: #172A3A;
     padding: 10px;
     border-radius: 5px;
     width: 80%;
@@ -20,4 +20,12 @@ ul{
     list-style: none;
     text-decoration: none;
     
+}
+
+.green{
+    color: #457052;
+}
+
+.red{
+    color: #FF5666;
 }
