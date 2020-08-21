@@ -5,7 +5,6 @@
   <app-form (emitQuote)="addQuote($event)"></app-form>
 </div>
 <div class="container">
-  <div>
     <hr>
     <div class="myQuote" *ngFor="let quote of quotes; let i=index">
       <p class="p1" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p><br>
@@ -20,5 +19,4 @@
       </div>
       <hr>
     </div>
-  </div>
 </div>
