@@ -9,9 +9,8 @@ body{
     text-align: center;
     background-color: #380e07d5;
     font-family: 'Londrina Outline', cursive;
-    font-size: 70px;
     color: #fff;
-    min-height: 60vh;
+    min-height: 30vh;
   }
   .welcome{
     font-size: 20px;
@@ -26,8 +25,8 @@ body{
   }
   .welcome-brief{
     font-size: 20px;
-
   }
+
   .btn{
     margin-right: 10px;
     outline: none !important;
