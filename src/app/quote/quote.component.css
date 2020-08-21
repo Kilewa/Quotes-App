@@ -59,3 +59,17 @@ body{
   text-align: justify;
   width: 40%;
 }
+
+/* media quries */
+@media screen and (max-width:375px){
+  .app-form{
+    width: 100%;
+  }
+  .p1{
+    width: 100%;
+    flex: 1;
+  }
+  .app-detail{
+    width: 100%;
+  }
+}
