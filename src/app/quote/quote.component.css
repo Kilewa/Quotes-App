@@ -16,6 +16,8 @@ body{
   }
   .btn{
     margin-right: 10px;
+    outline: none !important;
+    border: none !important;
   }
 
 .buttons{
