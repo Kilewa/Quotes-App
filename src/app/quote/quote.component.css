@@ -7,10 +7,26 @@ body{
   
   .container-fluid{
     text-align: center;
-    background-color: #380e07;
+    background-color: #380e07d5;
     font-family: 'Londrina Outline', cursive;
     font-size: 70px;
     color: #fff;
+    min-height: 60vh;
+  }
+  .welcome{
+    font-size: 20px;
+  }
+  .welcome-quote{
+    font-size: 20px;
+  }
+
+  .app-description{
+    font-size: 20px;
+
+  }
+  .welcome-brief{
+    font-size: 20px;
+
   }
   .btn{
     margin-right: 10px;
