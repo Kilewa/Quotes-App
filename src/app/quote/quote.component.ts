@@ -7,7 +7,7 @@ import {Quote} from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes=[new Quote("Kilewa","George Kilewa","Change is Permanent"),
-          new Quote("George Kilewa","Martin Lutha King Jnr","'Every man must decide whether he will walk in the light of creative altruism or in the darkness of destructive selfishness. '")]
+  new Quote("George Kilewa","Martin Lutha King Jnr","'Every man must decide whether he will walk in the light of creative altruism or in the darkness of destructive selfishness. '")]
   preNum:number
   lastNum:number
   counter:number

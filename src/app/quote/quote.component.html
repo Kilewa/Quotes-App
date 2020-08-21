@@ -1,15 +1,17 @@
 <div class="container-fluid">
   <h1>The QUOTES APP</h1>
 </div>
+<div class="app-form">
+  <app-form (emitQuote)="addQuote($event)"></app-form>
+</div>
 
-<app-form (emitQuote)="addQuote($event)"></app-form>
 
 <div class="container">
   <div>
     <hr>
     <div class="myQuote" *ngFor="let quote of quotes; let i=index">
-      <p appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p>
-      <p *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
+      <p class="p1" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p><br>
+      <p class="p1"  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
 
       <app-detail [quote]="quote"></app-detail>
 

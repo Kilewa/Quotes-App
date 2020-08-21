@@ -20,10 +20,14 @@ body{
 
 .buttons{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  float: left;
 }
 
-.addquote{
-  text-align: center;
+.app-form{
+  float: right;
+}
+
+.p1{
+  width: 50%;
+  margin: 10px 0 5px 0;
 }
