@@ -5,22 +5,25 @@
   <p class="welcome">Welcome to inspirational World.</p><br>
   <p class="welcome-quote">Be inspired before you expire.</p>
 </div>
-<div class="app-form">
-  <app-form (emitQuote)="addQuote($event)"></app-form>
-</div>
-<div class="container">
-    <hr>
-    <div *ngFor="let quote of quotes; let i=index">
-      <p class="p1" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p><br>
-      <p class="p1"  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
-      <div class="app-detail">
-        <app-detail [quote]="quote"></app-detail>
+<div class="main">
+  <!-- app formComponent-->
+  <div class="app-form">
+    <app-form (emitQuote)="addQuote($event)"></app-form>
+  </div>
+  <div class="container">
+      <div *ngFor="let quote of quotes; let i=index">
+        <p class="p1" appHighlight *ngIf="highestUpvote()===quote.upvotes && quote.upvotes>0">{{quote.quote}}</p><br>
+        <p class="p1"  *ngIf="highestUpvote()!==quote.upvotes || quote.upvotes===0">{{quote.quote}}</p>
+        <div class="app-detail">
+          <!-- detailComponent -->
+          <app-detail [quote]="quote"></app-detail>
+        </div>
+        <!-- buttons -->
+        <div class="buttons">
+          <button class="btn btn-success" (click)="upvote(i)">Upvote</button>
+          <button class="btn btn-info" (click)="downvote(i)">Downvote</button>
+          <button class="btn btn-danger" (click)="deleteQuote(i)">Delete</button>
+        </div>
       </div>
-      <div class="buttons">
-        <button class="btn btn-success" (click)="upvote(i)">Upvote</button>
-        <button class="btn btn-info" (click)="downvote(i)">Downvote</button>
-        <button class="btn btn-danger" (click)="delQuote(i)">Delete</button>
-      </div>
-      <hr>
-    </div>
+  </div>
 </div>

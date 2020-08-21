@@ -22,7 +22,7 @@ export class QuoteComponent implements OnInit {
   downvote(i){
     this.quotes[i].downvotes-=1
   }
-  delQuote(i){
+  deleteQuote(i){
     this.quotes.splice(i, 1)
   }
   highestUpvote(){
@@ -31,6 +31,7 @@ export class QuoteComponent implements OnInit {
 
     for(this.counter=0 ; this.counter < this.quotes.length; this.counter++) {
       this.high_val = this.quotes[this.counter].upvotes;
+
       if(this.high_val > this.initial_val){this.initial_val = this.high_val}
     }
     return  this.initial_val
