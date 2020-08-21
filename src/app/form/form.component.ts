@@ -20,10 +20,6 @@ export class FormComponent implements OnInit {
     this.quotePublisher = ''
     this.emitQuote.emit(this.theQuote)
   }
-
-
-
-
   constructor() { }
 
   ngOnInit() {
