@@ -63,7 +63,7 @@ To view the page click here: [THE QUOTES-APP](https://kilewa.github.io/Quotes-Ap
 George Kilewa
 
 ## Contact Details
-You can contact me at kilewaeorge230@gmail.com
+You can contact me at kilewageorge230@gmail.com
 
 ## License
 
